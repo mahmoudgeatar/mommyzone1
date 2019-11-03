@@ -1,0 +1,263 @@
+// var
+
+$mainColor:#028090;
+$secoundColor:#f45b69;
+$borderColor:#e4fbdf;
+$mainPadding: 25px 0px;
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+// start navbar
+.navbar{
+ background-color: #fff;
+ border-bottom: 1px solid #eee;
+ position: relative;
+ a{
+    font: 22px/30px Roboto;
+    letter-spacing: 0;
+ }
+ .navbar-brand{
+     font-weight: bold;
+     font-size: 30px;
+     color: $secoundColor !important;
+     position: absolute;
+     top: 7px;
+     left: 50%;
+     transform: translate(-50%,0%);
+     
+     span{
+         color: $mainColor;
+     }
+ }
+
+ img{
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+     position: absolute;
+     top: 15px;
+     right: 4%;
+     transform: translate(-50%,0%);
+ }
+
+ .navbar-collapse {
+     a{
+        color: $mainColor !important;
+     }
+ }
+
+ .navbar-light .navbar-toggler{
+     border: none;
+     color: $mainColor;
+ }
+
+}
+
+.navbar-light .navbar-toggler{
+    border: none;
+}
+
+
+// navbar end
+
+
+// slider start
+.slider{
+    padding:$mainPadding;
+    color: $mainColor;
+    h1{
+        font: Bold 26px/30px Roboto;
+        letter-spacing: 0;
+        color: #028090;
+          span{
+            text-align: center;
+           font: Regular 22px/30px Roboto;
+            letter-spacing: 0;
+            color: $secoundColor;
+        }
+    }
+
+    p{
+        font: 22px/30px Roboto;
+        letter-spacing: 0;
+    }
+
+    i{
+        color: $secoundColor;
+        margin-bottom: 10px;
+    }
+
+    //start slider
+    .photo{
+        align-items: center;
+        position: relative;
+        .line{
+            width: 100%;
+            height: 2px;
+            background-color: #374462;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+    }
+
+
+    //start info about the baby
+    .info{
+        margin-bottom: 30px;
+        margin-top: 30px;
+        border: 3px solid $borderColor;
+        border-radius: 10px;        
+        .content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+           
+          
+                  p{
+                    font:  22px/30px Roboto;
+                    font-weight: Bold;
+                    margin: 0px;
+                      span{
+                        font: 14px/30px Roboto;
+                          opacity: .5;
+                      }
+                  }
+
+
+                  @media (max-width:767px) {
+                    p{
+                        font:  22px/14px Roboto;
+                        font-weight: Bold;
+                        margin-bottom: 0px;
+                          span{
+                            font: 10px/0px Roboto;
+                              opacity: .5;
+                          }
+                      }
+                  }
+          
+          
+        }
+    } //imfo end
+
+//start more info abot the baby
+    .more-info{
+        padding: 0px 10xp;
+
+        li{
+            padding: 5px 0px 5px 0px;
+            font: 18px/20px Roboto;
+            letter-spacing: 0;
+            color: #38464F;
+            img{
+                margin-right: 5px;
+            }
+                
+        } //li end
+        a{
+            color:$mainColor;
+            text-decoration: underline;
+            font: 16px/30px Roboto;
+            letter-spacing: 0;
+        }
+    } //more info end
+    }//slider end
+
+
+
+//start gray libne
+.gray{
+    background-color:#eee ;
+    height: 20px;
+}
+
+//start artical section
+
+.artical{
+  padding: 40px 0px;
+  h4{
+   color: $mainColor;
+   font: 26px/30px Roboto;
+  }
+  p{
+    color:$mainColor;
+    font: 20px/30px Roboto;
+  }
+  a{
+     color:$mainColor;
+     text-decoration: underline;
+     font: 16px/30px Roboto;
+     letter-spacing: 0;
+  }
+}
+
+//start footer
+
+footer{
+    padding: 20px 0px;
+    background-color: $secoundColor;
+    color: #fff;
+    .caption{
+        border-bottom: 1px solid rgba(#fff, .2);
+        h6{
+            padding-bottom:15px ;
+            font: 22px/30px Roboto;
+
+        }
+    }
+
+    p{
+        padding: 20px 0px 0px;
+        margin: 0px;
+        font: 22px/30px Roboto;
+    }
+
+    a{
+        font: Light 20px/30px Roboto;
+        color: rgba(#fff, .9);
+        font-size: 13px;
+        padding: 7px 0px;
+        opacity: .7;
+        display: block;
+        cursor: pointer;
+        &:hover{
+            color: rgba(#fff, .9);
+            text-decoration: underline;
+        }
+
+        &:last-of-type{
+            margin-bottom: 15px;
+        }
+    }
+
+    .social{
+        i{
+            background-color: #fff;
+            width: 50px;
+            height: 50px;
+            color: $secoundColor;
+            border-radius: 50%;
+            line-height: 50px;
+            font-size: 20px;
+          &:hover{
+              opacity: .7;
+          }
+        }
+    }
+
+    .rigths{
+        margin-top: 35px;
+        font:  12px/30px Roboto;
+        opacity: .7;
+    }
+}
+
+
+// start media
+

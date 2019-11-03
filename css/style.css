@@ -1,0 +1,251 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  position: relative;
+}
+
+.navbar a {
+  font: 22px/30px Roboto;
+  letter-spacing: 0;
+}
+
+.navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 30px;
+  color: #f45b69 !important;
+  position: absolute;
+  top: 7px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+}
+
+.navbar .navbar-brand span {
+  color: #028090;
+}
+
+.navbar img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  right: 4%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+}
+
+.navbar .navbar-collapse a {
+  color: #028090 !important;
+}
+
+.navbar .navbar-light .navbar-toggler {
+  border: none;
+  color: #028090;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.slider {
+  padding: 25px 0px;
+  color: #028090;
+}
+
+.slider h1 {
+  font: Bold 26px/30px Roboto;
+  letter-spacing: 0;
+  color: #028090;
+}
+
+.slider h1 span {
+  text-align: center;
+  font: Regular 22px/30px Roboto;
+  letter-spacing: 0;
+  color: #f45b69;
+}
+
+.slider p {
+  font: 22px/30px Roboto;
+  letter-spacing: 0;
+}
+
+.slider i {
+  color: #f45b69;
+  margin-bottom: 10px;
+}
+
+.slider .photo {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.slider .photo .line {
+  width: 100%;
+  height: 2px;
+  background-color: #374462;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.slider .info {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border: 3px solid #e4fbdf;
+  border-radius: 10px;
+}
+
+.slider .info .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+}
+
+.slider .info .content p {
+  font: 22px/30px Roboto;
+  font-weight: Bold;
+  margin: 0px;
+}
+
+.slider .info .content p span {
+  font: 14px/30px Roboto;
+  opacity: .5;
+}
+
+@media (max-width: 767px) {
+  .slider .info .content p {
+    font: 22px/14px Roboto;
+    font-weight: Bold;
+    margin-bottom: 0px;
+  }
+  .slider .info .content p span {
+    font: 10px/0px Roboto;
+    opacity: .5;
+  }
+}
+
+.slider .more-info {
+  padding: 0px 10xp;
+}
+
+.slider .more-info li {
+  padding: 5px 0px 5px 0px;
+  font: 18px/20px Roboto;
+  letter-spacing: 0;
+  color: #38464F;
+}
+
+.slider .more-info li img {
+  margin-right: 5px;
+}
+
+.slider .more-info a {
+  color: #028090;
+  text-decoration: underline;
+  font: 16px/30px Roboto;
+  letter-spacing: 0;
+}
+
+.gray {
+  background-color: #eee;
+  height: 20px;
+}
+
+.artical {
+  padding: 40px 0px;
+}
+
+.artical h4 {
+  color: #028090;
+  font: 26px/30px Roboto;
+}
+
+.artical p {
+  color: #028090;
+  font: 20px/30px Roboto;
+}
+
+.artical a {
+  color: #028090;
+  text-decoration: underline;
+  font: 16px/30px Roboto;
+  letter-spacing: 0;
+}
+
+footer {
+  padding: 20px 0px;
+  background-color: #f45b69;
+  color: #fff;
+}
+
+footer .caption {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+footer .caption h6 {
+  padding-bottom: 15px;
+  font: 22px/30px Roboto;
+}
+
+footer p {
+  padding: 20px 0px 0px;
+  margin: 0px;
+  font: 22px/30px Roboto;
+}
+
+footer a {
+  font: Light 20px/30px Roboto;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 13px;
+  padding: 7px 0px;
+  opacity: .7;
+  display: block;
+  cursor: pointer;
+}
+
+footer a:hover {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: underline;
+}
+
+footer a:last-of-type {
+  margin-bottom: 15px;
+}
+
+footer .social i {
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  color: #f45b69;
+  border-radius: 50%;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+footer .social i:hover {
+  opacity: .7;
+}
+
+footer .rigths {
+  margin-top: 35px;
+  font: 12px/30px Roboto;
+  opacity: .7;
+}
+/*# sourceMappingURL=style.css.map */
